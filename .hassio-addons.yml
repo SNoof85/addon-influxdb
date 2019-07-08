@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  influxdb:
+    repository: SNoof85/addon-influxdb
+    target: influxdb
+    image: hassioaddons/influxdb-{arch}
